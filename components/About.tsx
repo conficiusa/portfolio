@@ -69,7 +69,7 @@ export default function About() {
 					<div className='md:col-span-2'>
 						<div className='text-slate-400 space-y-4'>
 							<p>
-								I'm an developer who loves working on challenging problems,
+								I&apos;m an developer who loves working on challenging problems,
 								cracking them into simpler solutions. I build scalable backend
 								applications, using state of the art technologies with security
 								in mind.
@@ -89,10 +89,10 @@ export default function About() {
 									university for development studies
 								</a>{" "}
 								studying Doctor of Medical Laboratory Science years, I am a self
-								taught developer and for the past 3+ years, I've been among
+								taught developer and for the past 3+ years, I&apos;ve been among
 								several teams engineering the next big stuff.
 							</p>
-							<p>A glimpse of the things I'm experienced with:</p>
+							<p>A glimpse of the things I&apos;m experienced with:</p>
 						</div>
 
 						<ul className='grid grid-cols-2 sm:grid-cols-3 gap-2 mt-6'>

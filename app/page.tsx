@@ -4,8 +4,6 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Link from "next/link";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 export default function Home() {

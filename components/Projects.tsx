@@ -2,7 +2,6 @@
 
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 interface ProjectProps {
 	title: string;
@@ -187,7 +186,7 @@ export default function Projects() {
 					<span className='text-primary font-mono mr-2 text-xl md:text-2xl'>
 						03.
 					</span>
-					<span>Some Things I've Built</span>
+					<span>Some Things I&apos;ve Built</span>
 					<span className='ml-4 h-px bg-slate-600 flex-grow hidden md:block'></span>
 				</h2>
 

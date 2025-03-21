@@ -38,7 +38,7 @@ export default function Contact() {
     >
       <div className="max-w-lg mx-auto text-center">
         <h2 className="flex flex-col items-center text-2xl md:text-3xl font-bold text-slate-200 mb-5">
-          <span className="text-primary font-mono mb-2 text-base">04. What's Next?</span>
+          <span className="text-primary font-mono mb-2 text-base">04. What&apos;s Next?</span>
           <span>Get In Touch</span>
         </h2>
 

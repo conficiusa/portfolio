@@ -77,7 +77,7 @@ export default function Experience() {
 					<span className='text-primary font-mono mr-2 text-xl md:text-2xl'>
 						02.
 					</span>
-					<span>Where I've Worked</span>
+					<span>Where I&apos;ve Worked</span>
 					<span className='ml-4 h-px bg-slate-600 flex-grow hidden md:block'></span>
 				</h2>
 
