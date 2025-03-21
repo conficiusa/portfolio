@@ -1,0 +1,86 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.fadeup {
+  opacity: 0;
+  animation: fadeUp 0.5s ease-in-out forwards;
+}
+
+.fadedown {
+  opacity: 0;
+  animation: fadeDown 0.5s ease-in-out forwards;
+}
+
+/* Apply these classes to elements that should fade in on load */
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fadeup-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fadeup-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.fadedown-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fadedown-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+/* Style for the hover animation on project cards */
+.project-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
