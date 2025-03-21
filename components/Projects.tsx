@@ -202,7 +202,7 @@ export default function Projects() {
 							}`}
 						>
 							<div
-								className={`md:col-span-7 absolute z-50 ${
+								className={`md:col-span-7 md:absolute z-30 ${
 									i % 2 === 0 ? "md:col-start-6 text-right" : "md:col-start-1"
 								}`}
 							>
