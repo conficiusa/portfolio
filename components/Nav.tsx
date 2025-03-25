@@ -48,7 +48,7 @@ export default function Nav() {
 
 	return (
 		<header
-			className={`fixed w-full px-6 sm:px-12 py-4 z-40 transition-all duration-300
+			className={` w-full px-6 sm:px-12 py-4 z-40 transition-all duration-300
       ${
 				isScrolled
 					? "bg-[#0b132b]/90 shadow-md backdrop-blur-sm"
